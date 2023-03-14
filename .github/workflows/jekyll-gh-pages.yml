@@ -23,7 +23,6 @@ concurrency:
 jobs:
   # Build job
   build:
-    jekyll-theme- cayman
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
