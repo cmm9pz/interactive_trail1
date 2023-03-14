@@ -23,6 +23,7 @@ concurrency:
 jobs:
   # Build job
   build:
+    theme: cayman
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
